@@ -1,8 +1,6 @@
 # RedmiBook16黑苹果
 
-#### [RedmiBook 16](https://www.mi.com/buy/detail?product_id=10000242&cfrom=search)
-
-#### [RedmiBook 14 Ⅱ](https://www.mi.com/buy/detail?product_id=10000241)
+#### [RedmiBook 16](https://www.mi.com/buy/detail?product_id=10000242&cfrom=search)      [RedmiBook 14Ⅱ](https://www.mi.com/buy/detail?product_id=10000241)
 
 ## 电脑配置
 | 规格   | 详细信息                                                      |
@@ -16,9 +14,9 @@
 | 声卡   | Realtek High Definition Audio（ALC256）                      |
 | 网卡   | Intel(R) Wi-Fi 6 AX201 160MHz                                |
 
+## 正常的
 
-| 正常的|
-| ---------- |
+
 | 屏幕亮度|
 | 核显|
 | 睡眠|
