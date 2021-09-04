@@ -2,7 +2,13 @@
 
 ##### [RedmiBook 16](https://www.mi.com/buy/detail?product_id=10000242&cfrom=search)      [RedmiBook 14II](https://www.mi.com/buy/detail?product_id=10000241)
 
-#### 支持安装
+### 简介
+因为Monterey正式版暂时还没有出来，而支持Monterey的驱动无法在BigSur上正常工作，OpenCore0.7.1也开始支持MontereyBeta。
+出于稳定考虑所以我使用的是0.7.0。不过，你可以自行升级OC版本和驱动。
+如果你发现此efi其他问题或有现有问题解决办法欢迎lssues或进QQ群
+
+### 支持安装
+Catalina BigSur Monterey(！12需要升级OpenCore和Kexts)
 
 ## 电脑配置
 | 规格   | 详细信息                                                      |
