@@ -4,7 +4,7 @@
 
 ### 简介
 因为Monterey正式版暂时还没有出来，而支持Monterey的驱动无法在BigSur及Catalina上正常工作，OpenCore0.7.1也开始支持MontereyBeta。
-出于稳定考虑所以我使用的是0.7.0。不过不用担心，等Monterey正式版发布后我有时间就会升级OpenCore版本。
+所以出于稳定考虑我使用的是0.7.0。不过不用担心，等Monterey正式版发布后我有时间就会升级OpenCore版本。
 
 ### 支持安装的macOS版本
 - Catalina
