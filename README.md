@@ -1,6 +1,6 @@
 # RedmiBook16黑苹果
 
-#### [RedmiBook 16](https://www.mi.com/buy/detail?product_id=10000242&cfrom=search)      [RedmiBook 14Ⅱ](https://www.mi.com/buy/detail?product_id=10000241)
+#### [RedmiBook 16](https://www.mi.com/buy/detail?product_id=10000242&cfrom=search)      [RedmiBook 14II](https://www.mi.com/buy/detail?product_id=10000241)
 
 ## 电脑配置
 | 规格   | 详细信息                                                      |
@@ -15,6 +15,14 @@
 | 网卡   | Intel(R) Wi-Fi 6 AX201 160MHz                                |
 
 ## 正常的
+- 核显 英特尔锐炬Plus & Intel(R) UHD Graphics
+- 声卡 ALC256
+- 网卡 AX201
+- CPU变频 i7 1065G7 & i5 1035G1
+- 睡眠 i7
+- 屏幕亮度 最高亮度和Win一样并且开机后无需睡眠就是正常的
+- USB 已定制USB驱动两个type-C和USB口均正常
+- 3.5mm 耳机接口
 
 
 | 屏幕亮度|
