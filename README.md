@@ -1,6 +1,6 @@
 # RedmiBook16黑苹果
 
-##### 支持安装的笔记本[RedmiBook 16](https://www.mi.com/buy/detail?product_id=10000242&cfrom=search) _ _ [RedmiBook 14II](https://www.mi.com/buy/detail?product_id=10000241)
+##### 支持的笔记本[RedmiBook 16](https://www.mi.com/buy/detail?product_id=10000242&cfrom=search) _ _ [RedmiBook 14II](https://www.mi.com/buy/detail?product_id=10000241)
 
 ### 简介
 因为Monterey正式版暂时还没有出来，而支持Monterey的驱动无法在BigSur及Catalina上正常工作，OpenCore0.7.1也开始支持MontereyBeta。
@@ -8,7 +8,7 @@
 
 ###### 注意 本EFI可以在RedmiBook14II上使用但我并没有测试过 也许会有未知问题
 
-### 支持安装的macOS版本
+### 支持安装的macOS
 - Catalina
 - BigSur
 - Monterey(！Monterey需要升级OpenCore和Lilu/VirtualSMC等Kexts)
