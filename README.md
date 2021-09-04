@@ -2,7 +2,7 @@
 
 #### [RedmiBook 16](https://www.mi.com/buy/detail?product_id=10000242&cfrom=search)      [RedmiBook 14II](https://www.mi.com/buy/detail?product_id=10000241)
 
-## 支持安装
+##### 支持安装
 
 ## 电脑配置
 | 规格   | 详细信息                                                      |
