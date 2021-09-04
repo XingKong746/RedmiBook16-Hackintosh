@@ -2,6 +2,8 @@
 
 #### [RedmiBook 16](https://www.mi.com/buy/detail?product_id=10000242&cfrom=search)      [RedmiBook 14II](https://www.mi.com/buy/detail?product_id=10000241)
 
+## 支持安装
+
 ## 电脑配置
 | 规格   | 详细信息                                                      |
 | ------ | ------------------------------------------------------------ |
@@ -31,11 +33,9 @@
 - 键盘
 - F1 F2 F3 F9快捷键
 - 电池电量显示
-- 
 
 ## 不正常的
 - 内置HDMI
 - 内置麦克风
 - NVIDIA GeForce MX350
-- 
 
