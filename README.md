@@ -1,7 +1,6 @@
 # RedmiBook16黑苹果
 
-#### [RedmiBook 16](https://www.mi.com/buy/detail?product_id=10000242&cfrom=search)
-#### [RedmiBook 14 Ⅱ](https://www.mi.com/buy/detail?product_id=10000241)
+#### [RedmiBook 16](https://www.mi.com/buy/detail?product_id=10000242&cfrom=search) #### [RedmiBook 14 Ⅱ](https://www.mi.com/buy/detail?product_id=10000241)
 
 ## 电脑配置
 | 规格| 详细信息|
