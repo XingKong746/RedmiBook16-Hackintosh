@@ -6,7 +6,7 @@
 因为Monterey正式版暂时还没有出来，而支持Monterey的驱动无法在BigSur及Catalina上正常工作，OpenCore0.7.1也开始支持MontereyBeta。
 所以出于稳定考虑我使用的是0.7.0。不过不用担心，等Monterey正式版发布后我有时间就会升级OpenCore版本。
 
-###### 注意.本EFI可以在RedmiBook14II上使用但好像没有book16完美
+###### 注意 本EFI可以在RedmiBook14II上使用但我并没有测试过 也许会有未知问题
 
 ### 支持安装的macOS版本
 - Catalina
