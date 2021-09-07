@@ -11,7 +11,7 @@
 ### 支持安装的macOS
 - Catalina
 - BigSur
-- Monterey(！Monterey需要升级[OpenCore](https://github.com/acidanthera/OpenCorePkg/releases)和Lilu/VirtualSMC等Kexts)
+- Monterey(！Monterey需要升级[OpenCore](https://github.com/acidanthera/OpenCorePkg/releases)和[Lilu](https://github.com/acidanthera/Lilu/releases)/VirtualSMC等Kexts)
 
 #### 如果你发现此efi其他问题或有现有问题解决办法欢迎lssues或进QQ群
 
