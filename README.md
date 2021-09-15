@@ -2,7 +2,7 @@
 
 ##### 支持的笔记本[RedmiBook 16](https://www.mi.com/buy/detail?product_id=10000242&cfrom=search) _ _ [RedmiBook 14II](https://www.mi.com/buy/detail?product_id=10000241)
 
-### 简介
+### 一些说明
 因为Monterey正式版暂时还没有出来，而支持Monterey的驱动无法在BigSur及Catalina上正常工作，OpenCore0.7.1也开始支持MontereyBeta。
 所以出于稳定考虑我使用的是0.7.0。不过不用担心，等Monterey正式版发布后我有时间就会升级OpenCore版本。
 
