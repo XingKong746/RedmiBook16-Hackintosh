@@ -13,7 +13,7 @@
 - BigSur
 - Monterey(！Monterey需要升级[OpenCore](https://github.com/acidanthera/OpenCorePkg/releases)和[Lilu](https://github.com/acidanthera/Lilu/releases)/[VirtualSMC](https://github.com/acidanthera/VirtualSMC/releases)等[Kexts](https://github.com/acidanthera))
 
-#### 如果你发现此efi其他问题或有现有问题解决办法欢迎lssues或进[QQ](#qq交流群)群
+#### 如果你发现此efi其他问题或有现有问题解决办法欢迎[lssues](https://github.com/XingKong746/RedmiBook16-Hackintosh/issues)或进[QQ](#qq交流群)群
 
 ## 电脑配置
 | 规格   | 详细信息                                                      |
