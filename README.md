@@ -5,7 +5,7 @@
 ###### 注意 本EFI可以在RedmiBook14II上使用但我并没有测试过 也许会有未知问题
 
 ### 支持安装的macOS
-- Catalina ([注意](#Catalina))
+- Catalina ([注意!](#Catalina))
 - BigSur
 - Monterey（三天内更新支持Monterey的EFI  [bug](#Monterey)）
 
