@@ -2,16 +2,12 @@
 
 ##### 支持的笔记本[RedmiBook 16](https://www.mi.com/buy/detail?product_id=10000242&cfrom=search) _ _ [RedmiBook 14II](https://www.mi.com/buy/detail?product_id=10000241)
 
-### 一些说明
-因为Monterey正式版暂时还没有出来，而支持Monterey的驱动无法在BigSur及Catalina上正常工作，OpenCore0.7.1也开始支持MontereyBeta。
-所以出于稳定考虑我使用的是0.7.0。不过不用担心，等Monterey正式版发布后我有时间就会升级OpenCore版本。
-
 ###### 注意 本EFI可以在RedmiBook14II上使用但我并没有测试过 也许会有未知问题
 
 ### 支持安装的macOS
 - Catalina
 - BigSur
-- Monterey(！Monterey需要升级[OpenCore](https://github.com/acidanthera/OpenCorePkg/releases)和[Lilu](https://github.com/acidanthera/Lilu/releases)/[VirtualSMC](https://github.com/acidanthera/VirtualSMC/releases)等[Kexts](https://github.com/acidanthera))
+- Monterey（三天内更新支持Monterey的EFI  [bug](#Monterey)）
 
 #### 如果你发现此efi其他问题或有现有问题解决办法欢迎[lssues](https://github.com/XingKong746/RedmiBook16-Hackintosh/issues)或进[QQ](#qq交流群)群
 
@@ -49,6 +45,10 @@
 - 内置HDMI
 - 内置麦克风
 - NVIDIA GeForce MX350
+
+### Monterey
+蓝牙有点小问题
+
 
 #### QQ交流群：
 722693584
