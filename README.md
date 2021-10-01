@@ -5,7 +5,7 @@
 ###### 注意 本EFI可以在RedmiBook14II上使用但我并没有测试过 也许会有未知问题
 
 ### 支持安装的macOS
-- Catalina ([注意](#))
+- Catalina ([注意](#Catalina))
 - BigSur
 - Monterey（三天内更新支持Monterey的EFI  [bug](#Monterey)）
 
@@ -45,6 +45,10 @@
 - 内置HDMI
 - 内置麦克风
 - NVIDIA GeForce MX350
+
+### Catalina
+- v9.0开始不再支持Catalina，若要使用请下载v9以前的版本
+- 并将Kexts里的[AirportItlwm.kext](https://github.com/OpenIntelWireless/itlwm/releases)换成Catalina的
 
 ### Monterey
 蓝牙有点小问题
