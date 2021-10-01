@@ -46,8 +46,6 @@
 - 内置麦克风
 - NVIDIA GeForce MX350
 
-#
-
 ##
 
 ### Catalina
