@@ -5,9 +5,9 @@
 ###### 注意 本EFI可以在RedmiBook14II上使用但我并没有测试过 也许会有未知问题
 
 ### 支持安装的macOS
-- Catalina ([注意!](#Catalina))
+- Catalina （[一些说明](#Catalina)）
 - BigSur
-- Monterey（三天内更新支持Monterey的EFI  [bug](#Monterey)）
+- Monterey （[一些说明](#Monterey)）
 
 #### 如果你发现此efi其他问题或有现有问题解决办法欢迎[lssues](https://github.com/XingKong746/RedmiBook16-Hackintosh/issues)或进[QQ](#qq交流群)群
 
@@ -47,14 +47,16 @@
 - NVIDIA GeForce MX350
 
 ##
+#### QQ交流群：
+722693584
+##
 
 ### Catalina
 1. v9.0开始不再支持Catalina，若要使用请下载v9以前的版本
 2. 并将Kexts里的[AirportItlwm.kext](https://github.com/OpenIntelWireless/itlwm/releases)换成Catalina的
 
 ### Monterey
-蓝牙有点小问题
+1. 安装Monterey Beta 7会出现“验证固件时发生错误”，解决方法自行搜索或者安装Beta6。
+2. 蓝牙会有小问题
 
 
-#### QQ交流群：
-722693584
