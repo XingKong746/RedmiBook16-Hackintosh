@@ -2,8 +2,6 @@
 
 ##### 支持的笔记本[RedmiBook 16](https://www.mi.com/buy/detail?product_id=10000242&cfrom=search) _ _ [RedmiBook 14II](https://www.mi.com/buy/detail?product_id=10000241)
 
-###### 注意 本EFI可以在RedmiBook14II上使用但我并没有测试过 也许会有未知问题
-
 ### 支持安装的macOS
 - Catalina （[一些说明](#Catalina)）
 - BigSur
