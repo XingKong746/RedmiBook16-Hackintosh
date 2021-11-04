@@ -55,7 +55,6 @@
 2. 并将Kexts里的[AirportItlwm.kext](https://github.com/OpenIntelWireless/itlwm/releases)换成Catalina的
 
 ### Monterey
-1. 安装Monterey Beta 7会出现“验证固件时发生错误”，解决方法自行搜索或者安装Beta6。
-2. 蓝牙会有小问题
+1. 蓝牙关闭后需要重启才能打开
 
 
