@@ -4,8 +4,8 @@
 
 ### 支持安装的macOS
 - Catalina （[一些说明](#Catalina)）
-- BigSur 全版本使用[`####v8.5`](https://github.com/XingKong746/RedmiBook16-Hackintosh/releases/tag/v8.5)版本即可
-- Monterey
+- BigSur 全版本使用[`v8.5`](https://github.com/XingKong746/RedmiBook16-Hackintosh/releases/tag/v8.5)版本即可
+- Monterey 使用最新的[`EFI`](https://github.com/XingKong746/RedmiBook16-Hackintosh/releases)即可
 
 #### 如果你发现此efi其他问题或有现有问题解决办法欢迎[lssues](https://github.com/XingKong746/RedmiBook16-Hackintosh/issues)或进[QQ](#qq交流群)群
 
