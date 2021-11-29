@@ -6,8 +6,8 @@
 
 ### Supported macOS
 - Catalina [*](#Catalina)
-- BigSur [*](#Big-Sur)
-- Monterey 
+- Big Sur [*](#Big-Sur)
+- Monterey [*](#Monterey)
 
 #### If you find that this efi has other problems or solutions to existing problems, please feel free to put forward in [lssues](https://github.com/XingKong746/RedmiBook16-Hackintosh/issues)
 
@@ -53,3 +53,6 @@
 
 ### Big Sur
 1. It is recommended that all versions of Big Sur use [v8.5](https://github.com/XingKong746/RedmiBook16-Hackintosh/releases/tag/v8.5) version of EFI
+
+### Monterey
+1. Just use the latest [EFI](https://github.com/XingKong746/RedmiBook16-Hackintosh/releases/latest)
