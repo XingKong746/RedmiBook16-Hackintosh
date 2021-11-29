@@ -48,4 +48,5 @@
 - NVIDIA GeForce MX350
 
 ### Catalina
-
+- Catalina is no longer supported since v9.0, if you want to use it, please download the version before v9.0
+- 
