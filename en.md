@@ -52,6 +52,7 @@
 ### Catalina
 1. Catalina is no longer supported since v9.0, if you want to use it, please download the version before v9.0
 2. Replace airportitlwm.kext in kexts with Catalina's
+3. EFI recommendation [v8.5](https://github.com/XingKong746/RedmiBook16-Hackintosh/releases/tag/v8.5)
 
 ### Big Sur
 1. It is recommended that all versions of Big Sur use [v8.5](https://github.com/XingKong746/RedmiBook16-Hackintosh/releases/tag/v8.5) version of EFI
