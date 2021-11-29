@@ -14,9 +14,9 @@
 ## computer configuration
 | Specification | detailed information                             |
 | ------------- | ------------------------------------------------ |
-| Processor     | i7 1065G7 / i5 1035G1                            |
+| CPU           | i7 1065G7 / i5 1035G1                            |
 | Motherboard   | TIMI TM2003                                      |
-| Memory        | 16.00 GB ( 3200 MHz )                            |
+| RAM           | 16.00 GB ( 3200 MHz )                            |
 | SSD           | SAMSUNG MZNLH512HALU-00000                       |
 | Graphics card | Intel Iris Plus Graphics & Intel(R) UHD Graphics |
 | display       | 1920 x 1080  60Hz                                |
