@@ -26,7 +26,7 @@
 - Intel(R) Quick Sync Video
 - Sound card  `ALC256`
 - NIC  `AX201`
-- CPU frequency conversion
+- CPU frequency conversion  `i7 1065G7` & `i5 1035G1`
 - Sleep
 - Screen brightness
 - USB
