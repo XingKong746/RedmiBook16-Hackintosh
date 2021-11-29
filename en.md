@@ -40,9 +40,6 @@
 - `F1` `F2` `F3` `F9`Shortcut key
 - Battery level display
 
-
-
-
 ## Not working
 - Built-in HDMI
 - Built-in microphone
