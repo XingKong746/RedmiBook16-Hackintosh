@@ -22,10 +22,10 @@
 | NIC           | Intel(R) Wi-Fi 6 AX201 160MHz                    |
 
 ## Working
-- Core Graphics   Intel Iris Plus Graphics & Intel(R) UHD Graphics
+- Core Graphics `Intel Iris Plus Graphics` & `Intel(R) UHD Graphics`
 - Intel(R) Quick Sync Video
-- Sound card  ALC256
-- NIC  AX201
+- Sound card  `ALC256`
+- NIC  `AX201`
 - CPU frequency conversion
 - Sleep
 - Screen brightness
@@ -34,7 +34,7 @@
 - Type-C headphone jack
 - Bluetooth
 - 3.5mm/type-C/Bluetooth headset microphone
-- Bluetooth keyboard and mouse(Monterey)
+- Bluetooth keyboard and mouse `Monterey`
 - touchpad
 - keyboard
 - `F1` `F2` `F3` `F9`Shortcut key
