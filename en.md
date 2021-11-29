@@ -22,7 +22,7 @@
 | NIC           | Intel(R) Wi-Fi 6 AX201 160MHz                    |
 
 ## Working
-- Core Graphics &nbsp Intel Iris Plus Graphics & Intel(R) UHD Graphics
+- Core Graphics <&nbsp> Intel Iris Plus Graphics & Intel(R) UHD Graphics
 - Intel(R) Quick Sync Video
 - Sound card  ALC256
 - NIC  AX201
