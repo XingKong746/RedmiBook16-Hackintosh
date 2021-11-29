@@ -52,3 +52,4 @@
 2. Replace airportitlwm.kext in kexts with Catalina's
 
 ### Big Sur
+1. It is recommended that all versions of Big Sur use [v8.5](https://github.com/XingKong746/RedmiBook16-Hackintosh/releases/tag/v8.5) version of EFI
