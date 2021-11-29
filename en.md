@@ -6,7 +6,7 @@
 
 ### Supported macOS
 - Catalina [*](#Catalina)
-- BigSur
+- BigSur [*](#Big Sur)
 - Monterey 
 
 #### If you find that this efi has other problems or solutions to existing problems, please feel free to put forward in [lssues](https://github.com/XingKong746/RedmiBook16-Hackintosh/issues)
@@ -50,3 +50,5 @@
 ### Catalina
 1. Catalina is no longer supported since v9.0, if you want to use it, please download the version before v9.0
 2. Replace airportitlwm.kext in kexts with Catalina's
+
+### Big Sur
