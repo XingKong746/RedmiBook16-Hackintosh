@@ -34,7 +34,7 @@
 - Type-C headphone jack
 - Bluetooth
 - 3.5mm/type-C/Bluetooth headset microphone
-- Bluetooth keyboard and mouse `Monterey`
+- Bluetooth keyboard and mouse (Monterey)
 - touchpad
 - keyboard
 - `F1` `F2` `F3` `F9`Shortcut key
