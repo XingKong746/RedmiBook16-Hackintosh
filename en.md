@@ -6,7 +6,7 @@
 
 ### Supported macOS
 - Catalina [*](#Catalina)
-- BigSur [*](#Big Sur)
+- BigSur [*](#Big-Sur)
 - Monterey 
 
 #### If you find that this efi has other problems or solutions to existing problems, please feel free to put forward in [lssues](https://github.com/XingKong746/RedmiBook16-Hackintosh/issues)
