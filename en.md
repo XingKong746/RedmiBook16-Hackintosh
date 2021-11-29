@@ -2,7 +2,7 @@
 
 [中文](https://github.com/XingKong746/RedmiBook16-Hackintosh)
 
-##### Supported notebooks  [RedmiBook 16](https://www.mi.com/buy/detail?product_id=10000242&cfrom=search) _ _ [RedmiBook 14II](https://www.mi.com/buy/detail?product_id=10000241)
+##### Supported notebooks  [RedmiBook 16](https://www.mi.com/buy/detail?product_id=10000242&cfrom=search) _ [RedmiBook 14II](https://www.mi.com/buy/detail?product_id=10000241)
 
 ### Supported macOS
 - Catalina [*](#Catalina)
