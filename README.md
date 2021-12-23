@@ -45,7 +45,6 @@
 ## 不正常的
 - 内置HDMI
 - 内置麦克风
-- NVIDIA GeForce MX350
 
 ##
 #### QQ交流群：
