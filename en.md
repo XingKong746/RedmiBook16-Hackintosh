@@ -18,14 +18,14 @@
 | Motherboard        | TIMI TM2003                                      |
 | RAM                | 16.00 GB ( 3200 MHz )                            |
 | SSD                | SAMSUNG MZNLH512HALU-00000                       |
-| Processor Graphics | Intel Iris Plus Graphics & Intel UHD Graphics    |
+| Processor Graphics | Intel® Iris® Plus Graphics & Intel® UHD Graphics |
 | display            | 1920 x 1080  60Hz                                |
 | Sound card         | Realtek High Definition Audio(ALC256)            |
 | NIC                | Intel(R) Wi-Fi 6 AX201 160MHz                    |
 
 ## Working
-- Processor Graphics `Intel Iris Plus Graphics` & `Intel UHD Graphics`
-- Intel Quick Sync Video
+- Processor Graphics `Intel® Iris® Plus Graphics` & `Intel® UHD Graphics`
+- Intel® Quick Sync Video
 - Sound card  `ALC256`
 - NIC  `AX201`
 - CPU frequency conversion  `i7 1065G7` & `i5 1035G1`
