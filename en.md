@@ -24,8 +24,8 @@
 | NIC                | Intel(R) Wi-Fi 6 AX201 160MHz                    |
 
 ## Working
-- Core Graphics `Intel Iris Plus Graphics` & `Intel(R) UHD Graphics`
-- Intel(R) Quick Sync Video
+- Processor Graphics `Intel Iris Plus Graphics` & `Intel UHD Graphics`
+- Intel Quick Sync Video
 - Sound card  `ALC256`
 - NIC  `AX201`
 - CPU frequency conversion  `i7 1065G7` & `i5 1035G1`
