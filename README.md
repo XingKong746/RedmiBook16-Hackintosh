@@ -1,6 +1,6 @@
 # RedmiBook16黑苹果
 
-[English](https://github.com/XingKong746/RedmiBook16-Hackintosh/blob/master/en.md)
+**[English]**(https://github.com/XingKong746/RedmiBook16-Hackintosh/blob/master/en.md)
 
 > 支持的笔记本[RedmiBook 16](https://www.mi.com/buy/detail?product_id=10000242&cfrom=search) _ _ [RedmiBook 14II](https://www.mi.com/buy/detail?product_id=10000241)
 
