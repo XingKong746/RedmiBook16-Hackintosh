@@ -2,14 +2,14 @@
 
 [**中文**](https://github.com/XingKong746/RedmiBook16-Hackintosh)
 
-  > Supported notebooks  [RedmiBook 16](https://www.mi.com/buy/detail?product_id=10000242&cfrom=search) _ [RedmiBook 14II](https://www.mi.com/buy/detail?product_id=10000241)
+> Supported notebooks  [RedmiBook 16](https://www.mi.com/buy/detail?product_id=10000242&cfrom=search) _ [RedmiBook 14II](https://www.mi.com/buy/detail?product_id=10000241)
 
 ### Supported macOS
 - Catalina [*](#Catalina)
 - Big Sur [*](#Big-Sur)
 - Monterey [*](#Monterey)
 
-  > If you find that this efi has other problems or solutions to existing problems, please feel free to put forward in [lssues](https://github.com/XingKong746/RedmiBook16-Hackintosh/issues)
+> If you find that this efi has other problems or solutions to existing problems, please feel free to put forward in [lssues](https://github.com/XingKong746/RedmiBook16-Hackintosh/issues)
 
 ## computer configuration
 | Specification      | detailed information                             |
