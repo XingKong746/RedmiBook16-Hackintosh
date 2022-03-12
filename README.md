@@ -55,4 +55,4 @@
 1. v9.0开始不再支持Catalina，若要使用请下载v9以前的版本
 2. 并将Kexts里的[AirportItlwm.kext](https://github.com/OpenIntelWireless/itlwm/releases)换成Catalina的
 
-#Credits
+# Credits
