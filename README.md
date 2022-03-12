@@ -58,4 +58,5 @@
 ##
 
 # Credits
-- a
+- [Apple](https://www.apple.com.cn)开发的[macOS](https://www.apple.com.cn/macos)
+- 
