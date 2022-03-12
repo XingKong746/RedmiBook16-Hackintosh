@@ -56,7 +56,3 @@
 2. 并将Kexts里的[AirportItlwm.kext](https://github.com/OpenIntelWireless/itlwm/releases)换成Catalina的
 
 ##
-
-# Credits
-- [Apple](https://www.apple.com.cn)开发的[macOS](https://www.apple.com.cn/macos)
-- 
