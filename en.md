@@ -66,5 +66,6 @@
 - [VoodooI2C](https://github.com/VoodooI2C/VoodooI2C)
 - [RehabMan](https://github.com/RehabMan)'s [OS-X-USB-Inject-All](https://github.com/RehabMan/OS-X-USB-Inject-All)
 - [daliansky](https://github.com/daliansky) updated [OS-X-USB-Inject-All](https://github.com/daliansky/OS-X-USB-Inject-All) and [黑果小兵的部落阁](https://blog.daliansky.net/) provided tutorials and mirror downloads
+- [Xjn´s Blog](https://blog.xjn819.com)
 - Apple's macOS
 - And [me](https://github.com/XingKong746)
