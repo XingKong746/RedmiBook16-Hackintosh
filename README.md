@@ -55,7 +55,6 @@
 1. v9.0开始不再支持Catalina，若要使用请下载v9以前的版本
 2. 并将Kexts里的[AirportItlwm.kext](https://github.com/OpenIntelWireless/itlwm/releases)换成Catalina的
 
-##
 # 感谢
 - [Acidanthera](https://github.com/acidanthera) 团队，以及其维护的 [OpenCorePkg](https://github.com/acidanthera/OpenCorePkg)，和 [Lilu](https://github.com/acidanthera/Lilu)，[VirtualSMC](https://github.com/acidanthera/VirtualSMC)，[AppleALC](https://github.com/acidanthera/AppleALC)，[VoodooPS2](https://github.com/acidanthera/VoodooPS2)，[WhateverGreen](https://github.com/acidanthera/WhateverGreen)，[BlueToolFixup](https://github.com/acidanthera/BrcmPatchRAM) 等众多内核扩展
 - [OpenIntelWireless](https://github.com/OpenIntelWireless) 团队，以及其维护的 [itlwm](https://github.com/OpenIntelWireless/itlwm)，[IntelBluetoothFirmware](https://github.com/OpenIntelWireless/IntelBluetoothFirmware)
