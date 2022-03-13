@@ -59,3 +59,12 @@
 
 ### Monterey
 1. Just use the latest [EFI](https://github.com/XingKong746/RedmiBook16-Hackintosh/releases/latest)
+
+# Credits
+- [Acidanthera](https://github.com/acidanthera) team, and its maintained [OpenCorePkg](https://github.com/acidanthera/OpenCorePkg) and [Lilu](https://github.com/acidanthera/Lilu)，[VirtualSMC](https://github.com/acidanthera/VirtualSMC)，[AppleALC](https://github.com/acidanthera/AppleALC)，[VoodooPS2](https://github.com/acidanthera/VoodooPS2)，[WhateverGreen](https://github.com/acidanthera/WhateverGreen)，[BlueToolFixup](https://github.com/acidanthera/BrcmPatchRAM) and many other kexts
+- [OpenIntelWireless](https://github.com/OpenIntelWireless) team, and its maintained [itlwm](https://github.com/OpenIntelWireless/itlwm)，[IntelBluetoothFirmware](https://github.com/OpenIntelWireless/IntelBluetoothFirmware)
+- [VoodooI2C](https://github.com/VoodooI2C/VoodooI2C)
+- [RehabMan](https://github.com/RehabMan)'s [OS-X-USB-Inject-All](https://github.com/RehabMan/OS-X-USB-Inject-All)
+- [daliansky](https://github.com/daliansky) updated [OS-X-USB-Inject-All](https://github.com/daliansky/OS-X-USB-Inject-All) and [黑果小兵的部落阁](https://blog.daliansky.net/) provided tutorials and mirror downloads
+- Apple's macOS
+- And [me](https://github.com/XingKong746)
