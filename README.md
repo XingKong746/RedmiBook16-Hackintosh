@@ -61,5 +61,6 @@
 - [VoodooI2C](https://github.com/VoodooI2C/VoodooI2C)
 - [RehabMan](https://github.com/RehabMan) 的 [OS-X-USB-Inject-All](https://github.com/RehabMan/OS-X-USB-Inject-All)
 - [daliansky](https://github.com/daliansky) 更新的 [OS-X-USB-Inject-All](https://github.com/daliansky/OS-X-USB-Inject-All) 和 [黑果小兵的部落阁](https://blog.daliansky.net/) 提供的教程和镜像下载
+- [Xjn´s Blog](https://blog.xjn819.com)
 - Apple 的 macOS
 - 以及[我](https://github.com/XingKong746)
