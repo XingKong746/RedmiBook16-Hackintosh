@@ -27,7 +27,7 @@
 - Processor Graphics `Intel® Iris® Plus Graphics` & `Intel® UHD Graphics`
 - Intel® Quick Sync Video
 - Sound card  `ALC256`
-- NIC  `AX201`
+- Network card  `AX201`
 - CPU frequency conversion  `i7 1065G7` & `i5 1035G1`
 - Sleep
 - Screen brightness
@@ -45,7 +45,6 @@
 ## Not working
 - Built-in HDMI
 - Built-in microphone
-- NVIDIA GeForce MX350
 
 ##
 
