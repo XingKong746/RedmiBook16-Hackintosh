@@ -47,9 +47,6 @@
 - 内置麦克风
 
 ##
-#### QQ交流群：
-[722693584](https://jq.qq.com/?_wv=1027&k=eHYeqB52)
-##
 
 ### Catalina
 1. v9.0开始不再支持Catalina，若要使用请下载v9以前的版本
