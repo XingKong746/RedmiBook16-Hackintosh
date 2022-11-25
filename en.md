@@ -6,8 +6,8 @@
 
 ### Supported macOS
 - Catalina [*](#Catalina)
-- Big Sur [*](#Big-Sur)
-- Monterey [*](#Monterey)
+- Big Sur
+- Monterey
 
 > If you find that this efi has other problems or solutions to existing problems, please feel free to put forward in [lssues](https://github.com/XingKong746/RedmiBook16-Hackintosh/issues)
 
@@ -52,12 +52,6 @@
 1. Catalina is no longer supported since v9.0, if you want to use it, please download the version before v9.0
 2. Replace airportitlwm.kext in kexts with Catalina's
 3. EFI recommendation [v8.5](https://github.com/XingKong746/RedmiBook16-Hackintosh/releases/tag/v8.5)
-
-### Big Sur
-1. It is recommended that all versions of Big Sur use [v8.5](https://github.com/XingKong746/RedmiBook16-Hackintosh/releases/tag/v8.5) version of EFI
-
-### Monterey
-1. Just use the latest [EFI](https://github.com/XingKong746/RedmiBook16-Hackintosh/releases/latest)
 
 # Credits
 - [Acidanthera](https://github.com/acidanthera) team, and its maintained [OpenCorePkg](https://github.com/acidanthera/OpenCorePkg) and [Lilu](https://github.com/acidanthera/Lilu)，[VirtualSMC](https://github.com/acidanthera/VirtualSMC)，[AppleALC](https://github.com/acidanthera/AppleALC)，[VoodooPS2](https://github.com/acidanthera/VoodooPS2)，[WhateverGreen](https://github.com/acidanthera/WhateverGreen)，[BlueToolFixup](https://github.com/acidanthera/BrcmPatchRAM) and many other kexts
