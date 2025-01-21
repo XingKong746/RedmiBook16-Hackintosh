@@ -872,7 +872,7 @@
 				<key>boot-args</key>
 				<string>-v watchdog=0 -noDC9 igfxfw=2</string>
 				<key>prev-lang:kbd</key>
-				<string>zh-CN:252</string>
+				<string>zh-Hans:252</string>
 			</dict>
 		</dict>
 		<key>Delete</key>
