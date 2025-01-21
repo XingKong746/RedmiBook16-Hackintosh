@@ -5,9 +5,12 @@
 > 支持的笔记本[RedmiBook 16](https://www.mi.com/buy/detail?product_id=10000242&cfrom=search) _ _ [RedmiBook 14II](https://www.mi.com/buy/detail?product_id=10000241)
 
 ### 支持安装的macOS
-- Catalina （[一些说明](#Catalina)）
+- Catalina [*](#Catalina)
 - BigSur
 - Monterey
+- Ventura 最好14.4+
+- Sonoma
+- Sequoia
 
 > 如果你发现此efi其他问题或有现有问题解决办法欢迎[lssues](https://github.com/XingKong746/RedmiBook16-Hackintosh/issues)
 
@@ -36,7 +39,7 @@
 - type-C 耳机接口
 - 蓝牙 连接耳机，手机
 - 3.5mm/type-C/蓝牙耳机麦克风
-- 蓝牙键鼠（Monterey）
+- 蓝牙
 - 触控板
 - 键盘
 - `F1` `F2` `F3` `F9`快捷键
@@ -49,8 +52,13 @@
 ##
 
 ### Catalina
-1. v9.0开始不再支持Catalina，若要使用请下载v9以前的版本
-2. 并将Kexts里的[AirportItlwm.kext](https://github.com/OpenIntelWireless/itlwm/releases)换成Catalina的
+1. 最新的10.X支持
+2. 将Kexts里的[AirportItlwm.kext](https://github.com/OpenIntelWireless/itlwm/releases)换成Catalina的(或者使用General)
+
+### Sequoia
+- 使用itlwm+HeliPort上网，或者自己Patch
+- 可以看看[WarmEpoch的分叉分支](https://github.com/WarmEpoch/RedmiBook16-Hackintosh/tree/sequoia)的[提交](https://github.com/WarmEpoch/RedmiBook16-Hackintosh/commits/sequoia/)
+- 配置改完之后使用[OpenCore-Legacy-Patcher](https://github.com/dortania/OpenCore-Legacy-Patcher)打补丁
 
 # 感谢
 - [Acidanthera](https://github.com/acidanthera) 团队，以及其维护的 [OpenCorePkg](https://github.com/acidanthera/OpenCorePkg)，和 [Lilu](https://github.com/acidanthera/Lilu)，[VirtualSMC](https://github.com/acidanthera/VirtualSMC)，[AppleALC](https://github.com/acidanthera/AppleALC)，[VoodooPS2](https://github.com/acidanthera/VoodooPS2)，[WhateverGreen](https://github.com/acidanthera/WhateverGreen)，[BlueToolFixup](https://github.com/acidanthera/BrcmPatchRAM) 等众多内核扩展

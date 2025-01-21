@@ -8,6 +8,9 @@
 - Catalina [*](#Catalina)
 - Big Sur
 - Monterey
+- Ventura best use 14.4+
+- Sonoma
+- Sequoia
 
 > If you find that this efi has other problems or solutions to existing problems, please feel free to put forward in [lssues](https://github.com/XingKong746/RedmiBook16-Hackintosh/issues)
 
@@ -36,8 +39,8 @@
 - Type-C headphone jack
 - Bluetooth
 - 3.5mm/type-C/Bluetooth headset microphone
-- Bluetooth keyboard and mouse (Monterey)
-- touchpad
+- Bluetooth
+- Touchpad
 - keyboard
 - `F1` `F2` `F3` `F9`Shortcut key
 - Battery level display
@@ -49,9 +52,11 @@
 ##
 
 ### Catalina
-1. Catalina is no longer supported since v9.0, if you want to use it, please download the version before v9.0
+1. Latest 10. X support
 2. Replace airportitlwm.kext in kexts with Catalina's
-3. EFI recommendation [v8.5](https://github.com/XingKong746/RedmiBook16-Hackintosh/releases/tag/v8.5)
+
+### Sequoia
+- Use itlwm+HeliPort to access the internet, or patch it yourself
 
 # Credits
 - [Acidanthera](https://github.com/acidanthera) team, and its maintained [OpenCorePkg](https://github.com/acidanthera/OpenCorePkg) and [Lilu](https://github.com/acidanthera/Lilu)，[VirtualSMC](https://github.com/acidanthera/VirtualSMC)，[AppleALC](https://github.com/acidanthera/AppleALC)，[VoodooPS2](https://github.com/acidanthera/VoodooPS2)，[WhateverGreen](https://github.com/acidanthera/WhateverGreen)，[BlueToolFixup](https://github.com/acidanthera/BrcmPatchRAM) and many other kexts
