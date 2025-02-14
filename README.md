@@ -60,6 +60,11 @@
 - 可以看看[WarmEpoch的分叉分支](https://github.com/WarmEpoch/RedmiBook16-Hackintosh/tree/sequoia)的[提交](https://github.com/WarmEpoch/RedmiBook16-Hackintosh/commits/sequoia/) 配置改完之后使用OCLP打补丁
 - 可以看看这里 https://mp.weixin.qq.com/s/orhJJ9TkhO7gN1NTwAAUCg
 
+#### +x
+`sudo spctl --master-disable`
+`defaults write com.apple.NetworkBrowser BrowseAllInterfaces 1 `
+`sudo killall sharingd`
+
 # 感谢
 - [Acidanthera](https://github.com/acidanthera) 团队，以及其维护的 [OpenCorePkg](https://github.com/acidanthera/OpenCorePkg)，和 [Lilu](https://github.com/acidanthera/Lilu)，[VirtualSMC](https://github.com/acidanthera/VirtualSMC)，[AppleALC](https://github.com/acidanthera/AppleALC)，[VoodooPS2](https://github.com/acidanthera/VoodooPS2)，[WhateverGreen](https://github.com/acidanthera/WhateverGreen)，[BlueToolFixup](https://github.com/acidanthera/BrcmPatchRAM) 等众多内核扩展
 - [OpenIntelWireless](https://github.com/OpenIntelWireless) 团队，以及其维护的 [itlwm](https://github.com/OpenIntelWireless/itlwm)，[IntelBluetoothFirmware](https://github.com/OpenIntelWireless/IntelBluetoothFirmware)
