@@ -8,8 +8,8 @@
 - Catalina [*](#Catalina)
 - BigSur
 - Monterey
-- Ventura 最好14.4+
-- Sonoma
+- Ventura
+- Sonoma 14.4+
 - Sequoia
 
 > 如果你发现此efi其他问题或有现有问题解决办法欢迎[lssues](https://github.com/XingKong746/RedmiBook16-Hackintosh/issues)
