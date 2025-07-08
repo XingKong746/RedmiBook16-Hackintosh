@@ -192,7 +192,7 @@
                 <key>RebaseRegions</key>
                 <true/>
                 <key>ResetHwSig</key>
-                <false/>
+                <true/>
                 <key>ResetLogoStatus</key>
                 <false/>
                 <key>SyncTableIds</key>
@@ -1566,7 +1566,7 @@
                 <key>IgnoreInvalidFlexRatio</key>
                 <true/>
                 <key>ReleaseUsbOwnership</key>
-                <false/>
+                <true/>
                 <key>ReloadOptionRoms</key>
                 <false/>
                 <key>RequestBootVarRouting</key>
