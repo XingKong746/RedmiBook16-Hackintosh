@@ -2,14 +2,14 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
     <dict>
-        <key>#WARNING - 1</key>
-        <string>This is just a sample. Do NOT try loading it.</string>
-        <key>#WARNING - 2</key>
-        <string>Ensure you understand EVERY field before booting.</string>
-        <key>#WARNING - 3</key>
-        <string>In most cases recommended to use Sample.plist</string>
-        <key>#WARNING - 4</key>
-        <string>Use SampleCustom.plist only for special cases.</string>
+        <key>Author</key>
+        <string>XingKong746</string>
+        <key>ProjectUrl</key>
+        <string>https://github.com/XingKong746/RedmiBook16-Hackintosh</string>
+        <key>QQ</key>
+        <string>3301394538</string>
+        <key>WeiXin</key>
+        <string>17375673810</string>
         <key>ACPI</key>
         <dict>
             <key>Add</key>
@@ -80,7 +80,7 @@
                 </dict>
                 <dict>
                     <key>Comment</key>
-                    <string>Patching DMAR Table</string>
+                    <string>Replacement DMAR table with Reserved Memory Regions stripped - requires DMAR table be dropped</string>
                     <key>Enabled</key>
                     <true/>
                     <key>Path</key>
@@ -113,7 +113,7 @@
                     <key>Enabled</key>
                     <true/>
                     <key>OemTableId</key>
-                    <data></data>
+                    <data>AAAAAAAAAAA=</data>
                     <key>TableLength</key>
                     <integer>0</integer>
                     <key>TableSignature</key>
@@ -312,11 +312,11 @@
                     <key>force-online</key>
                     <integer>1</integer>
                     <key>framebuffer-fbmem</key>
-                    <data>AACQAA==</data>
+                    <data>AADAAA==</data>
                     <key>framebuffer-patch-enable</key>
                     <integer>1</integer>
                     <key>framebuffer-stolenmem</key>
-                    <data>AAAwAQ==</data>
+                    <data>AAAAAw==</data>
                     <key>framebuffer-unifiedmem</key>
                     <data>AADw/w==</data>
                     <key>hda-gfx</key>
@@ -396,7 +396,7 @@
                     <key>BundlePath</key>
                     <string>CPUFriendDataProvider.kext</string>
                     <key>Comment</key>
-                    <string>V1.0.1 | v1.0.1 | CPU</string>
+                    <string>V1.0.1 | CPU</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -754,24 +754,6 @@
                     <key>Arch</key>
                     <string>Any</string>
                     <key>BundlePath</key>
-                    <string>NoTouchID.kext</string>
-                    <key>Comment</key>
-                    <string>V1.0.4</string>
-                    <key>Enabled</key>
-                    <true/>
-                    <key>ExecutablePath</key>
-                    <string>Contents/MacOS/NoTouchID</string>
-                    <key>MaxKernel</key>
-                    <string></string>
-                    <key>MinKernel</key>
-                    <string></string>
-                    <key>PlistPath</key>
-                    <string>Contents/Info.plist</string>
-                </dict>
-                <dict>
-                    <key>Arch</key>
-                    <string>Any</string>
-                    <key>BundlePath</key>
                     <string>BrightnessKeys.kext</string>
                     <key>Comment</key>
                     <string>V1.0.4</string>
@@ -864,7 +846,7 @@
                     <key>BundlePath</key>
                     <string>itlwm.kext</string>
                     <key>Comment</key>
-                    <string>V2.4.0 | WIFI</string>
+                    <string>V2.4.0 | WiFi</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -894,9 +876,80 @@
                     <key>PlistPath</key>
                     <string>Contents/Info.plist</string>
                 </dict>
+                <dict>
+                    <key>Arch</key>
+                    <string>Any</string>
+                    <key>BundlePath</key>
+                    <string>AMFIPass.kext</string>
+                    <key>Comment</key>
+                    <string>V1.4.1</string>
+                    <key>Enabled</key>
+                    <true/>
+                    <key>ExecutablePath</key>
+                    <string>Contents/MacOS/AMFIPass</string>
+                    <key>MaxKernel</key>
+                    <string></string>
+                    <key>MinKernel</key>
+                    <string>25.0.0</string>
+                    <key>PlistPath</key>
+                    <string>Contents/Info.plist</string>
+                </dict>
+                <dict>
+                    <key>Arch</key>
+                    <string>Any</string>
+                    <key>BundlePath</key>
+                    <string>IOSkywalkFamily.kext</string>
+                    <key>Comment</key>
+                    <string>V1.0</string>
+                    <key>Enabled</key>
+                    <false/>
+                    <key>ExecutablePath</key>
+                    <string>Contents/MacOS/IOSkywalkFamily</string>
+                    <key>MaxKernel</key>
+                    <string></string>
+                    <key>MinKernel</key>
+                    <string>24.0.0</string>
+                    <key>PlistPath</key>
+                    <string>Contents/Info.plist</string>
+                </dict>
+                <dict>
+                    <key>Arch</key>
+                    <string>Any</string>
+                    <key>BundlePath</key>
+                    <string>IO80211FamilyLegacy.kext</string>
+                    <key>Comment</key>
+                    <string>V1200.12.2b1</string>
+                    <key>Enabled</key>
+                    <false/>
+                    <key>ExecutablePath</key>
+                    <string>Contents/MacOS/IO80211FamilyLegacy</string>
+                    <key>MaxKernel</key>
+                    <string></string>
+                    <key>MinKernel</key>
+                    <string>24.0.0</string>
+                    <key>PlistPath</key>
+                    <string>Contents/Info.plist</string>
+                </dict>
             </array>
             <key>Block</key>
-            <array/>
+            <array>
+                <dict>
+                    <key>Arch</key>
+                    <string>x86_64</string>
+                    <key>Comment</key>
+                    <string></string>
+                    <key>Enabled</key>
+                    <false/>
+                    <key>Identifier</key>
+                    <string>com.apple.iokit.IOSkywalkFamily</string>
+                    <key>MaxKernel</key>
+                    <string></string>
+                    <key>MinKernel</key>
+                    <string>24.0.0</string>
+                    <key>Strategy</key>
+                    <string>Exclude</string>
+                </dict>
+            </array>
             <key>Emulate</key>
             <dict>
                 <key>Cpuid1Data</key>
@@ -924,10 +977,10 @@
                 <false/>
                 <key>AppleXcpmForceBoost</key>
                 <false/>
-                <key>CustomPciSerialDevice</key>
-                <false/>
                 <key>CustomSMBIOSGuid</key>
                 <true/>
+                <key>CustomPciSerialDevice</key>
+                <false/>
                 <key>DisableIoMapper</key>
                 <true/>
                 <key>DisableIoMapperMapping</key>
@@ -1115,14 +1168,16 @@
                 </dict>
                 <key>7C436110-AB2A-4BBB-A880-FE41995C9F82</key>
                 <dict>
+                    <key>boot-args</key>
+                    <string>-v -noDC9 ipc_control_port_options=0 -amfipassbeta</string>
+                    <key>prev-lang:kbd</key>
+                    <string>zh-CN:252</string>
+                    <key>csr-active-config</key>
+                    <data>fwoAAA==</data>
                     <key>bluetoothExternalDongleFailed</key>
                     <data>AA==</data>
                     <key>bluetoothInternalControllerInfo</key>
                     <data>AAAAAAAAAAAAAAAAAAA=</data>
-                    <key>boot-args</key>
-                    <string>-noDC9 ipc_control_port_options=0</string>
-                    <key>prev-lang:kbd</key>
-                    <string>zh-CN:252</string>
                 </dict>
             </dict>
             <key>Delete</key>
@@ -1143,6 +1198,8 @@
             </dict>
             <key>LegacyOverwrite</key>
             <false/>
+            <key>WriteFlash</key>
+            <true/>
             <key>LegacySchema</key>
             <dict>
                 <key>7C436110-AB2A-4BBB-A880-FE41995C9F82</key>
@@ -1173,8 +1230,6 @@
                     <string>BootOrder</string>
                 </array>
             </dict>
-            <key>WriteFlash</key>
-            <true/>
         </dict>
         <key>PlatformInfo</key>
         <dict>
@@ -1186,10 +1241,10 @@
             <dict>
                 <key>AdviseFeatures</key>
                 <false/>
-                <key>MLB</key>
-                <string>C02040401J9P8PG1M</string>
                 <key>MaxBIOSVersion</key>
                 <false/>
+                <key>MLB</key>
+                <string>C02040401J9P8PG1M</string>
                 <key>ProcessorType</key>
                 <integer>0</integer>
                 <key>ROM</key>
@@ -1253,10 +1308,10 @@
                 <integer>0</integer>
                 <key>PointerPollMask</key>
                 <integer>-1</integer>
-                <key>PointerPollMax</key>
-                <integer>80</integer>
                 <key>PointerPollMin</key>
                 <integer>10</integer>
+                <key>PointerPollMax</key>
+                <integer>80</integer>
                 <key>PointerSpeedDiv</key>
                 <integer>1</integer>
                 <key>PointerSpeedMul</key>
@@ -1501,10 +1556,10 @@
                 <false/>
                 <key>TextRenderer</key>
                 <string>BuiltinGraphics</string>
-                <key>UIScale</key>
-                <integer>0</integer>
                 <key>UgaPassThrough</key>
                 <false/>
+                <key>UIScale</key>
+                <integer>0</integer>
             </dict>
             <key>ProtocolOverrides</key>
             <dict>
