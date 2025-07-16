@@ -4,7 +4,7 @@
 [004h 0004 004h]                Table Length : 000000B0
 [008h 0008 001h]                    Revision : 02
 [009h 0009 001h]                    Checksum : 28
-[00Ah 0010 006h]                      Oem ID : "CORP"
+[00Ah 0010 006h]                      Oem ID : "XK746"
 [010h 0016 008h]                Oem Table ID : "DMAR"
 [018h 0024 004h]                Oem Revision : 00000002
 [01Ch 0028 004h]             Asl Compiler ID : "ACPI"
