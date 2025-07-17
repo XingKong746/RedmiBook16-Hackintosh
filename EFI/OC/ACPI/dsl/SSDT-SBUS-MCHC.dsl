@@ -1,4 +1,4 @@
-DefinitionBlock ("", "SSDT", 2, "XK746", "SbusMchc", 0x00000000) {
+DefinitionBlock ("", "SSDT", 2, "XK746", "SBUSMCHC", 0x00000000) {
     External (\_SB.PCI0, DeviceObj)
     External (\_SB.PCI0.MCHC, DeviceObj)
     External (\_SB.PCI0.SBUS, DeviceObj)
@@ -8,11 +8,11 @@ DefinitionBlock ("", "SSDT", 2, "XK746", "SbusMchc", 0x00000000) {
         Scope (\_SB.PCI0) {
             Device (MCHC) {
                 Name (_ADR, Zero)  // _ADR: Address
+
                 Method (_STA, 0, NotSerialized) { // _STA: Status
                     If (_OSI ("Darwin")) {
                         Return (0x0F)
-                    }
-                    Else {
+                    } Else {
                         Return (Zero)
                     }
                 }
@@ -27,8 +27,7 @@ DefinitionBlock ("", "SSDT", 2, "XK746", "SbusMchc", 0x00000000) {
         Method (_STA, 0, NotSerialized) { // _STA: Status
             If (_OSI ("Darwin")) {
                 Return (0x0F)
-            }
-            Else {
+            } Else {
                 Return (Zero)
             }
         }

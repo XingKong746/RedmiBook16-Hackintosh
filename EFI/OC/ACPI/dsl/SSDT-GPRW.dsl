@@ -1,4 +1,4 @@
-DefinitionBlock ("", "SSDT", 2, "XK746", "Gprw", 0x00000000) {
+DefinitionBlock ("", "SSDT", 2, "XK746", "GPRW", 0x00000000) {
     External (XPRW, MethodObj)    // 2 Arguments
 
     Method (GPRW, 2, NotSerialized) {

@@ -19,8 +19,7 @@ DefinitionBlock ("", "SSDT", 2, "XK746", "UsbReset", 0x00001000) {
         Method (_STA, 0, NotSerialized) { // _STA: Status
             If (_OSI ("Darwin")) {
                 Return (Zero) // This disables the device only in macOS
-            }
-            Else {
+            } Else {
                 Return (0x0F) // Re-enables it for Windows
             }
         }

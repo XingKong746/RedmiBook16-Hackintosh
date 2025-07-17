@@ -9,8 +9,7 @@ DefinitionBlock ("", "SSDT", 2, "XK746", "dGpuOff", 0x00000000) {
         Method (_STA, 0, NotSerialized) { // _STA: Status
             If (_OSI ("Darwin")) {
                 Return (0x0F)
-            }
-            Else {
+            } Else {
                 Return (Zero)
             }
         }
@@ -21,15 +20,14 @@ DefinitionBlock ("", "SSDT", 2, "XK746", "dGpuOff", 0x00000000) {
                 If (CondRefOf(\_SB.PCI0.RP13.PXSX._OFF)) {
                     \_SB.PCI0.RP13.PXSX._OFF()
                 }
-            }
-            Else {}
+            } Else {}
         }
     }
 
-//--------------------------------------------------//
+//--------------------------------------------------------//
 
-    External (\_SB.PCI0.RP13.PXSX._DSM, MethodObj) // dGPU ACPI Path
-    External (\_SB.PCI0.RP13.PXSX._PS3, MethodObj) // dGPU ACPI Path
+    External (\_SB.PCI0.RP13.PXSX._DSM, MethodObj)    // dGPU ACPI Path
+    External (\_SB.PCI0.RP13.PXSX._PS3, MethodObj)    // dGPU ACPI Path
 
     Device (NHG1) {
         Name (_HID, "NHG10000")  // _HID: Hardware ID
@@ -37,8 +35,7 @@ DefinitionBlock ("", "SSDT", 2, "XK746", "dGpuOff", 0x00000000) {
         Method (_STA, 0, NotSerialized) { // _STA: Status
             If (_OSI ("Darwin")) {
                 Return (0x0F)
-            }
-            Else {
+            } Else {
                 Return (Zero)
             }
         }
@@ -54,11 +51,11 @@ DefinitionBlock ("", "SSDT", 2, "XK746", "dGpuOff", 0x00000000) {
                         0x1A,
                         Buffer (0x04) { 0x01, 0x00, 0x00, 0x03 }
                     )
+
                     // Card Off
                     \_SB.PCI0.RP13.PXSX._PS3 ()
                 }
-            }
-            Else {}
+            } Else {}
         }
     }
 }
