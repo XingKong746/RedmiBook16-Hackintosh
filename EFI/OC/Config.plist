@@ -56,11 +56,11 @@
                 </dict>
                 <dict>
                     <key>Comment</key>
-                    <string>Fixing System Clocks - Incompatible AWAC Fix - Requires RTC _STA to XSTA Rename</string>
+                    <string>Incompatible AWAC Fix</string>
                     <key>Enabled</key>
                     <true/>
                     <key>Path</key>
-                    <string>SSDT-CLOCK.aml</string>
+                    <string>SSDT-RTCAWAC.aml</string>
                 </dict>
                 <dict>
                     <key>Comment</key>
@@ -156,7 +156,7 @@
                     <key>Mask</key>
                     <data></data>
                     <key>OemTableId</key>
-                    <data>AAAAAAAAAAA=</data>
+                    <data></data>
                     <key>Replace</key>
                     <data>WE5MRg==</data>
                     <key>ReplaceMask</key>
@@ -166,7 +166,7 @@
                     <key>TableLength</key>
                     <integer>0</integer>
                     <key>TableSignature</key>
-                    <data>AAAAAA==</data>
+                    <data></data>
                 </dict>
                 <dict>
                     <key>Base</key>
@@ -174,7 +174,7 @@
                     <key>BaseSkip</key>
                     <integer>0</integer>
                     <key>Comment</key>
-                    <string>Rename _OSI to XOSI (OS)</string>
+                    <string>Rename _OSI to XOSI</string>
                     <key>Count</key>
                     <integer>0</integer>
                     <key>Enabled</key>
@@ -186,7 +186,7 @@
                     <key>Mask</key>
                     <data></data>
                     <key>OemTableId</key>
-                    <data>AAAAAAAAAAA=</data>
+                    <data></data>
                     <key>Replace</key>
                     <data>WE9TSQ==</data>
                     <key>ReplaceMask</key>
@@ -196,7 +196,7 @@
                     <key>TableLength</key>
                     <integer>0</integer>
                     <key>TableSignature</key>
-                    <data>RFNEVA==</data>
+                    <data></data>
                 </dict>
                 <dict>
                     <key>Base</key>
@@ -216,7 +216,7 @@
                     <key>Mask</key>
                     <data></data>
                     <key>OemTableId</key>
-                    <data>AAAAAAAAAAA=</data>
+                    <data></data>
                     <key>Replace</key>
                     <data>ABQRWFNUQQ==</data>
                     <key>ReplaceMask</key>
@@ -226,7 +226,7 @@
                     <key>TableLength</key>
                     <integer>0</integer>
                     <key>TableSignature</key>
-                    <data>AAAAAA==</data>
+                    <data></data>
                 </dict>
                 <dict>
                     <key>Base</key>
@@ -246,7 +246,7 @@
                     <key>Mask</key>
                     <data></data>
                     <key>OemTableId</key>
-                    <data>AAAAAAAAAAA=</data>
+                    <data></data>
                     <key>Replace</key>
                     <data>JVhDUlM=</data>
                     <key>ReplaceMask</key>
@@ -256,7 +256,7 @@
                     <key>TableLength</key>
                     <integer>0</integer>
                     <key>TableSignature</key>
-                    <data>AAAAAA==</data>
+                    <data></data>
                 </dict>
                 <dict>
                     <key>Base</key>
@@ -276,7 +276,7 @@
                     <key>Mask</key>
                     <data></data>
                     <key>OemTableId</key>
-                    <data>AAAAAAAAAAA=</data>
+                    <data></data>
                     <key>Replace</key>
                     <data>IgAAeQA=</data>
                     <key>ReplaceMask</key>
@@ -286,7 +286,7 @@
                     <key>TableLength</key>
                     <integer>0</integer>
                     <key>TableSignature</key>
-                    <data>AAAAAA==</data>
+                    <data></data>
                 </dict>
                 <dict>
                     <key>Base</key>
@@ -306,7 +306,7 @@
                     <key>Mask</key>
                     <data></data>
                     <key>OemTableId</key>
-                    <data>AAAAAAAAAAA=</data>
+                    <data></data>
                     <key>Replace</key>
                     <data>IgAAeQA=</data>
                     <key>ReplaceMask</key>
@@ -316,7 +316,7 @@
                     <key>TableLength</key>
                     <integer>0</integer>
                     <key>TableSignature</key>
-                    <data>AAAAAA==</data>
+                    <data></data>
                 </dict>
                 <dict>
                     <key>Base</key>
@@ -336,7 +336,7 @@
                     <key>Mask</key>
                     <data></data>
                     <key>OemTableId</key>
-                    <data>AAAAAAAAAAA=</data>
+                    <data></data>
                     <key>Replace</key>
                     <data>IgAAeQA=</data>
                     <key>ReplaceMask</key>
@@ -346,7 +346,7 @@
                     <key>TableLength</key>
                     <integer>0</integer>
                     <key>TableSignature</key>
-                    <data>AAAAAA==</data>
+                    <data></data>
                 </dict>
                 <dict>
                     <key>Base</key>
@@ -376,7 +376,7 @@
                     <key>TableLength</key>
                     <integer>0</integer>
                     <key>TableSignature</key>
-                    <data>AAAAAA==</data>
+                    <data></data>
                 </dict>
                 <dict>
                     <key>Base</key>
@@ -406,7 +406,7 @@
                     <key>TableLength</key>
                     <integer>0</integer>
                     <key>TableSignature</key>
-                    <data>RFNEVA==</data>
+                    <data></data>
                 </dict>
             </array>
             <key>Quirks</key>
