@@ -1,7 +1,5 @@
 # RedmiBook16黑苹果
 
-[**English**](https://github.com/XingKong746/RedmiBook16-Hackintosh/blob/master/en.md)
-
 > 支持的笔记本[RedmiBook 16](https://www.mi.com/buy/detail?product_id=10000242&cfrom=search) _ _ [RedmiBook 14II](https://www.mi.com/buy/detail?product_id=10000241)
 
 ### 支持安装的macOS
@@ -11,7 +9,7 @@
 - Ventura
 - Sonoma
 - Sequoia
-- Tahoe
+- Tahoe (声音需要使用[OCLP-Mod](https://github.com/laobamac/OCLP-Mod/releases))
 
 > 如果你有此efi现有问题解决办法欢迎[lssues](https://github.com/XingKong746/RedmiBook16-Hackintosh/issues)
 
@@ -24,6 +22,15 @@
 | 显卡   | 英特尔锐炬Plus & Intel(R) UHD Graphics                              |
 | 声卡   | Realtek High Definition Audio ALC256                              |
 | 网卡   | Intel(R) Wi-Fi 6 AX201 160MHz                                     |
+
+### 给需要的人一些帮助
+| BIOS配置项          | 位置     | 变量 | 目标          |
+| ---------------- - | -------- | ---  | ------------- |
+| CFG Lock           | CpuSetup | 0x43 | 0x0: Disabled |
+| DVMT Pre-Allocated | SaSetup  | 0xA4 | 0x5: 160M     |
+| DVMT Total Gfx Mem | SaSetup  | 0xA5 | 0x3: MAX      |
+| VT-d               | SaSetup  | 0xA7 | 0x0: Disabled |
+| State After G3     | PchSetup | 0x1B | 0x0: S0 State |
 
 ## 正常的
 - 核显 加速
