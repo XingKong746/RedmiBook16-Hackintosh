@@ -25,7 +25,7 @@
 
 ### 给需要的人一些帮助
 | BIOS配置项          | 位置     | 变量 | 目标          |
-| ---------------- - | -------- | ---  | ------------- |
+| ------------------ | -------- | ---  | ------------- |
 | CFG Lock           | CpuSetup | 0x43 | 0x0: Disabled |
 | DVMT Pre-Allocated | SaSetup  | 0xA4 | 0x5: 160M     |
 | DVMT Total Gfx Mem | SaSetup  | 0xA5 | 0x3: MAX      |
