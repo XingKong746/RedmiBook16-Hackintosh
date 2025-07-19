@@ -17,11 +17,11 @@
 | 规格   | 详细信息                                                      |
 | ------ | ------------------------------------------------------------ |
 | CPU    | i5 1035G1                                                    |
-| 主板   | TIMI TM2003 芯片组 I/O (U Premium) - 3482 for Intel (R) On-Package |
-| 硬盘   | 三星 SAMSUNG MZNLH512HALU-00000                                    |
-| 显卡   | 英特尔锐炬Plus & Intel(R) UHD Graphics                              |
-| 声卡   | Realtek High Definition Audio ALC256                              |
-| 网卡   | Intel(R) Wi-Fi 6 AX201 160MHz                                     |
+| 主板   | TIMI TM2003 芯片组 I/O (U Premium) - 3482 for Intel 495 Series |
+| 硬盘   | 三星 SAMSUNG MZNLH512HALU-00000                                |
+| 显卡   | 英特尔锐炬Plus & Intel(R) UHD Graphics                         |
+| 声卡   | Realtek High Definition Audio ALC256                           |
+| 网卡   | Intel(R) Wi-Fi 6 AX201 160MHz                                  |
 
 ### 给需要的人一些帮助
 | BIOS配置项          | 位置     | 变量 | 目标          |
