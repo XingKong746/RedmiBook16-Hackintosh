@@ -16,15 +16,7 @@
             <array>
                 <dict>
                     <key>Comment</key>
-                    <string>Replacement DMAR table with Reserved Memory Regions stripped - requires DMAR table be dropped</string>
-                    <key>Enabled</key>
-                    <true/>
-                    <key>Path</key>
-                    <string>DMAR.aml</string>
-                </dict>
-                <dict>
-                    <key>Comment</key>
-                    <string>Fixing Power Management - Sets plugin-type to 1 on first Processor object</string>
+                    <string>用于在 macOS 中启用 Apple 的 XCPM，从而实现更好的 CPU 电源管理</string>
                     <key>Enabled</key>
                     <true/>
                     <key>Path</key>
@@ -32,31 +24,23 @@
                 </dict>
                 <dict>
                     <key>Comment</key>
-                    <string>Faked Embedded Controller (Laptop) - Generic USBX device for USB power properties</string>
+                    <string>用于禁用真正的嵌入式控制器并创建一个供 macOS 使用的假控制器</string>
                     <key>Enabled</key>
                     <true/>
                     <key>Path</key>
-                    <string>SSDT-EC-USBX.aml</string>
+                    <string>SSDT-EC.aml</string>
                 </dict>
                 <dict>
                     <key>Comment</key>
-                    <string>Fixing Backlight - Defines PNLF device with a _UID of 19 for backlight control - requires PNLF to XNLF rename</string>
+                    <string>USBX 部分用于注入 Skylake 及更新版本中缺少的 USB 电源属性</string>
                     <key>Enabled</key>
                     <true/>
                     <key>Path</key>
-                    <string>SSDT-PNLF.aml</string>
+                    <string>SSDT-USBX.aml</string>
                 </dict>
                 <dict>
                     <key>Comment</key>
-                    <string>_OSI override to return true through Windows 10 - requires _OSI to XOSI rename</string>
-                    <key>Enabled</key>
-                    <true/>
-                    <key>Path</key>
-                    <string>SSDT-TRACKPAD.aml</string>
-                </dict>
-                <dict>
-                    <key>Comment</key>
-                    <string>Incompatible AWAC Fix</string>
+                    <string>用于在 macOS 中启用旧版 RTC 时钟，因为较新的 AWAC 时钟不受支持</string>
                     <key>Enabled</key>
                     <true/>
                     <key>Path</key>
@@ -64,7 +48,7 @@
                 </dict>
                 <dict>
                     <key>Comment</key>
-                    <string>Fixing USB - SSDT to disable USB RHUB/HUBN/URTH and rename devices</string>
+                    <string>由于OEM ACPI实现不佳，用于重置Ice Lake笔记本电脑上的USB控制器</string>
                     <key>Enabled</key>
                     <true/>
                     <key>Path</key>
@@ -72,23 +56,39 @@
                 </dict>
                 <dict>
                     <key>Comment</key>
-                    <string>IRQ - HPET _CRS (Needs _CRS to XCRS Rename)</string>
+                    <string>用于控制一体机和笔记本电脑等内部显示器的背光</string>
                     <key>Enabled</key>
                     <true/>
                     <key>Path</key>
-                    <string>SSDT-HPET.aml</string>
+                    <string>SSDT-PNLF.aml</string>
                 </dict>
                 <dict>
                     <key>Comment</key>
-                    <string>PMCR for native 300-series NVRAM</string>
+                    <string>在 macOS 中启用许多仅限 Windows 的功能（需要 XOSI 补丁）</string>
                     <key>Enabled</key>
                     <true/>
                     <key>Path</key>
-                    <string>SSDT-PMC.aml</string>
+                    <string>SSDT-XOSI.aml</string>
                 </dict>
                 <dict>
                     <key>Comment</key>
-                    <string>Fixing SMBus support - Defines an MCHC and BUS0 device for SMBus compatibility</string>
+                    <string>优化触控板连接</string>
+                    <key>Enabled</key>
+                    <true/>
+                    <key>Path</key>
+                    <string>SSDT-GPI0.aml</string>
+                </dict>
+                <dict>
+                    <key>Comment</key>
+                    <string>修复 DMAR - 从 DMAR 表中移除保留内存区域</string>
+                    <key>Enabled</key>
+                    <true/>
+                    <key>Path</key>
+                    <string>DMAR.aml</string>
+                </dict>
+                <dict>
+                    <key>Comment</key>
+                    <string>修复 SMBus 支持</string>
                     <key>Enabled</key>
                     <true/>
                     <key>Path</key>
@@ -96,27 +96,19 @@
                 </dict>
                 <dict>
                     <key>Comment</key>
-                    <string>Faked Ambient Light Sensor</string>
+                    <string>屏蔽笔记本独显</string>
                     <key>Enabled</key>
                     <true/>
                     <key>Path</key>
-                    <string>SSDT-ALS0.aml</string>
+                    <string>SSDT-dGPU-Off.aml</string>
                 </dict>
                 <dict>
                     <key>Comment</key>
-                    <string>Instant Wake Patch</string>
+                    <string>屏蔽笔记本独显</string>
                     <key>Enabled</key>
                     <true/>
                     <key>Path</key>
-                    <string>SSDT-GPRW.aml</string>
-                </dict>
-                <dict>
-                    <key>Comment</key>
-                    <string>Disabling laptop dGPUs</string>
-                    <key>Enabled</key>
-                    <true/>
-                    <key>Path</key>
-                    <string>SSDT-DGPU-OFF.aml</string>
+                    <string>SSDT-NoHybGfx.aml</string>
                 </dict>
             </array>
             <key>Delete</key>
@@ -125,11 +117,11 @@
                     <key>All</key>
                     <true/>
                     <key>Comment</key>
-                    <string>Drop DMAR Table</string>
+                    <string>丢弃DMAR表</string>
                     <key>Enabled</key>
                     <true/>
                     <key>OemTableId</key>
-                    <data>AAAAAAAAAAA=</data>
+                    <data></data>
                     <key>TableLength</key>
                     <integer>0</integer>
                     <key>TableSignature</key>
@@ -144,37 +136,7 @@
                     <key>BaseSkip</key>
                     <integer>0</integer>
                     <key>Comment</key>
-                    <string>PNLF to XNLF Rename</string>
-                    <key>Count</key>
-                    <integer>0</integer>
-                    <key>Enabled</key>
-                    <true/>
-                    <key>Find</key>
-                    <data>UE5MRg==</data>
-                    <key>Limit</key>
-                    <integer>0</integer>
-                    <key>Mask</key>
-                    <data></data>
-                    <key>OemTableId</key>
-                    <data></data>
-                    <key>Replace</key>
-                    <data>WE5MRg==</data>
-                    <key>ReplaceMask</key>
-                    <data></data>
-                    <key>Skip</key>
-                    <integer>0</integer>
-                    <key>TableLength</key>
-                    <integer>0</integer>
-                    <key>TableSignature</key>
-                    <data></data>
-                </dict>
-                <dict>
-                    <key>Base</key>
-                    <string></string>
-                    <key>BaseSkip</key>
-                    <integer>0</integer>
-                    <key>Comment</key>
-                    <string>Rename _OSI to XOSI</string>
+                    <string>重命名_OSI到XOSI</string>
                     <key>Count</key>
                     <integer>0</integer>
                     <key>Enabled</key>
@@ -196,217 +158,7 @@
                     <key>TableLength</key>
                     <integer>0</integer>
                     <key>TableSignature</key>
-                    <data></data>
-                </dict>
-                <dict>
-                    <key>Base</key>
-                    <string></string>
-                    <key>BaseSkip</key>
-                    <integer>0</integer>
-                    <key>Comment</key>
-                    <string>IRQ - HPET _STA to XSTA Rename</string>
-                    <key>Count</key>
-                    <integer>0</integer>
-                    <key>Enabled</key>
-                    <true/>
-                    <key>Find</key>
-                    <data>ABQRX1NUQQ==</data>
-                    <key>Limit</key>
-                    <integer>0</integer>
-                    <key>Mask</key>
-                    <data></data>
-                    <key>OemTableId</key>
-                    <data></data>
-                    <key>Replace</key>
-                    <data>ABQRWFNUQQ==</data>
-                    <key>ReplaceMask</key>
-                    <data></data>
-                    <key>Skip</key>
-                    <integer>0</integer>
-                    <key>TableLength</key>
-                    <integer>0</integer>
-                    <key>TableSignature</key>
-                    <data></data>
-                </dict>
-                <dict>
-                    <key>Base</key>
-                    <string></string>
-                    <key>BaseSkip</key>
-                    <integer>0</integer>
-                    <key>Comment</key>
-                    <string>IRQ - HPET _CRS to XCRS Rename</string>
-                    <key>Count</key>
-                    <integer>0</integer>
-                    <key>Enabled</key>
-                    <true/>
-                    <key>Find</key>
-                    <data>JV9DUlM=</data>
-                    <key>Limit</key>
-                    <integer>0</integer>
-                    <key>Mask</key>
-                    <data></data>
-                    <key>OemTableId</key>
-                    <data></data>
-                    <key>Replace</key>
-                    <data>JVhDUlM=</data>
-                    <key>ReplaceMask</key>
-                    <data></data>
-                    <key>Skip</key>
-                    <integer>0</integer>
-                    <key>TableLength</key>
-                    <integer>0</integer>
-                    <key>TableSignature</key>
-                    <data></data>
-                </dict>
-                <dict>
-                    <key>Base</key>
-                    <string></string>
-                    <key>BaseSkip</key>
-                    <integer>0</integer>
-                    <key>Comment</key>
-                    <string>IRQ - IPIC IRQ 2 Patch</string>
-                    <key>Count</key>
-                    <integer>0</integer>
-                    <key>Enabled</key>
-                    <true/>
-                    <key>Find</key>
-                    <data>IgQAeQA=</data>
-                    <key>Limit</key>
-                    <integer>0</integer>
-                    <key>Mask</key>
-                    <data></data>
-                    <key>OemTableId</key>
-                    <data></data>
-                    <key>Replace</key>
-                    <data>IgAAeQA=</data>
-                    <key>ReplaceMask</key>
-                    <data></data>
-                    <key>Skip</key>
-                    <integer>0</integer>
-                    <key>TableLength</key>
-                    <integer>0</integer>
-                    <key>TableSignature</key>
-                    <data></data>
-                </dict>
-                <dict>
-                    <key>Base</key>
-                    <string></string>
-                    <key>BaseSkip</key>
-                    <integer>0</integer>
-                    <key>Comment</key>
-                    <string>IRQ - RTC IRQ 8 Patch</string>
-                    <key>Count</key>
-                    <integer>0</integer>
-                    <key>Enabled</key>
-                    <true/>
-                    <key>Find</key>
-                    <data>IgABeQA=</data>
-                    <key>Limit</key>
-                    <integer>0</integer>
-                    <key>Mask</key>
-                    <data></data>
-                    <key>OemTableId</key>
-                    <data></data>
-                    <key>Replace</key>
-                    <data>IgAAeQA=</data>
-                    <key>ReplaceMask</key>
-                    <data></data>
-                    <key>Skip</key>
-                    <integer>0</integer>
-                    <key>TableLength</key>
-                    <integer>0</integer>
-                    <key>TableSignature</key>
-                    <data></data>
-                </dict>
-                <dict>
-                    <key>Base</key>
-                    <string></string>
-                    <key>BaseSkip</key>
-                    <integer>0</integer>
-                    <key>Comment</key>
-                    <string>IRQ - TIMR IRQ 0 Patch</string>
-                    <key>Count</key>
-                    <integer>0</integer>
-                    <key>Enabled</key>
-                    <true/>
-                    <key>Find</key>
-                    <data>IgEAeQA=</data>
-                    <key>Limit</key>
-                    <integer>0</integer>
-                    <key>Mask</key>
-                    <data></data>
-                    <key>OemTableId</key>
-                    <data></data>
-                    <key>Replace</key>
-                    <data>IgAAeQA=</data>
-                    <key>ReplaceMask</key>
-                    <data></data>
-                    <key>Skip</key>
-                    <integer>0</integer>
-                    <key>TableLength</key>
-                    <integer>0</integer>
-                    <key>TableSignature</key>
-                    <data></data>
-                </dict>
-                <dict>
-                    <key>Base</key>
-                    <string></string>
-                    <key>BaseSkip</key>
-                    <integer>0</integer>
-                    <key>Comment</key>
-                    <string>change Method(GPRW,2,N) to XPRW, pair with SSDT-GPRW.aml</string>
-                    <key>Count</key>
-                    <integer>0</integer>
-                    <key>Enabled</key>
-                    <true/>
-                    <key>Find</key>
-                    <data>R1BSVwI=</data>
-                    <key>Limit</key>
-                    <integer>0</integer>
-                    <key>Mask</key>
-                    <data></data>
-                    <key>OemTableId</key>
-                    <data></data>
-                    <key>Replace</key>
-                    <data>WFBSVwI=</data>
-                    <key>ReplaceMask</key>
-                    <data></data>
-                    <key>Skip</key>
-                    <integer>0</integer>
-                    <key>TableLength</key>
-                    <integer>0</integer>
-                    <key>TableSignature</key>
-                    <data></data>
-                </dict>
-                <dict>
-                    <key>Base</key>
-                    <string></string>
-                    <key>BaseSkip</key>
-                    <integer>0</integer>
-                    <key>Comment</key>
-                    <string>Fix RTC _STA bug</string>
-                    <key>Count</key>
-                    <integer>0</integer>
-                    <key>Enabled</key>
-                    <true/>
-                    <key>Find</key>
-                    <data>oAqTU1RBUwE=</data>
-                    <key>Limit</key>
-                    <integer>0</integer>
-                    <key>Mask</key>
-                    <data></data>
-                    <key>OemTableId</key>
-                    <data></data>
-                    <key>Replace</key>
-                    <data>oAqRCv8L//8=</data>
-                    <key>ReplaceMask</key>
-                    <data></data>
-                    <key>Skip</key>
-                    <integer>0</integer>
-                    <key>TableLength</key>
-                    <integer>0</integer>
-                    <key>TableSignature</key>
-                    <data></data>
+                    <data>RFNEVA==</data>
                 </dict>
             </array>
             <key>Quirks</key>
@@ -418,7 +170,7 @@
                 <key>RebaseRegions</key>
                 <true/>
                 <key>ResetHwSig</key>
-                <true/>
+                <false/>
                 <key>ResetLogoStatus</key>
                 <false/>
                 <key>SyncTableIds</key>
@@ -500,6 +252,8 @@
                     <string>Audio controller</string>
                     <key>layout-id</key>
                     <integer>17</integer>
+                    <key>model</key>
+                    <string>Realtek ALC256</string>
                 </dict>
                 <key>PciRoot(0x0)/Pci(0x2,0x0)</key>
                 <dict>
@@ -513,10 +267,6 @@
                     <data>UYoAAA==</data>
                     <key>device_type</key>
                     <string>Display controller</string>
-                    <key>disable-external-gpu</key>
-                    <integer>1</integer>
-                    <key>enable-backlight-registers-alternative-fix</key>
-                    <integer>1</integer>
                     <key>enable-backlight-registers-fix</key>
                     <integer>1</integer>
                     <key>enable-backlight-smoother</key>
@@ -527,15 +277,7 @@
                     <integer>1</integer>
                     <key>enable-dvmt-calc-fix</key>
                     <integer>1</integer>
-                    <key>enable-hdmi-dividers-fix</key>
-                    <integer>1</integer>
-                    <key>enable-hdmi20</key>
-                    <integer>1</integer>
-                    <key>enable-lspcon-support</key>
-                    <integer>1</integer>
                     <key>enable-metal</key>
-                    <integer>1</integer>
-                    <key>force-online</key>
                     <integer>1</integer>
                     <key>framebuffer-fbmem</key>
                     <data>AADAAA==</data>
@@ -544,13 +286,13 @@
                     <key>framebuffer-stolenmem</key>
                     <data>AAAAAw==</data>
                     <key>framebuffer-unifiedmem</key>
-                    <data>AADw/w==</data>
-                    <key>hda-gfx</key>
-                    <string>onboard-1</string>
+                    <data>AAAAwA==</data>
                     <key>igfxfw</key>
                     <integer>2</integer>
                     <key>igfxpavp</key>
                     <integer>1</integer>
+                    <key>model</key>
+                    <string>Intel Iris Plus Graphics</string>
                     <key>rps-control</key>
                     <integer>1</integer>
                 </dict>
@@ -1291,7 +1033,7 @@
                 <key>EnablePassword</key>
                 <false/>
                 <key>ExposeSensitiveData</key>
-                <integer>7</integer>
+                <integer>3</integer>
                 <key>HaltLevel</key>
                 <integer>2147483648</integer>
                 <key>PasswordHash</key>
@@ -1363,7 +1105,7 @@
                     <key>bluetoothInternalControllerInfo</key>
                     <data>AAAAAAAAAAAAAAAAAAA=</data>
                     <key>boot-args</key>
-                    <string>-v -noDC9 ipc_control_port_options=0 -amfipassbeta</string>
+                    <string>-noDC9 ipc_control_port_options=0 -amfipassbeta</string>
                     <key>csr-active-config</key>
                     <data>fwoAAA==</data>
                     <key>prev-lang:kbd</key>

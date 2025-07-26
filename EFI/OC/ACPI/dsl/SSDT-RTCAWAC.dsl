@@ -1,4 +1,4 @@
-DefinitionBlock ("", "SSDT", 2, "XK746", "RTCAWAC", 0x00000000) {
+DefinitionBlock ("", "SSDT", 2, "XK746", "RtcAwac", 0x00000000) {
     External (STAS, IntObj)
 
     Scope (\) {

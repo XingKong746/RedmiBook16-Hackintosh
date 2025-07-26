@@ -1,24 +1,4 @@
-// SSDT-EC
-// SSDT-USBX
-DefinitionBlock ("", "SSDT", 2, "XK746 ", "EcUsbx", 0x00001000) {
-    External (\_SB.PCI0.LPCB, DeviceObj)
-
-    Scope (\_SB.PCI0.LPCB) {
-        Device (EC) {
-            Name (_HID, "ACID0001")  // _HID: Hardware ID
-
-            Method (_STA, 0, NotSerialized) { // _STA: Status
-                If (_OSI ("Darwin")) {
-                    Return (0x0F)
-                } Else {
-                    Return (Zero)
-                }
-            }
-        }
-    }
-
-//--------------------------------------------------------//
-
+DefinitionBlock ("", "SSDT", 2, "XK746 ", "USBX", 0x00001000) {
     Scope (\_SB) {
         Device (USBX) {
             Name (_ADR, Zero)  // _ADR: Address

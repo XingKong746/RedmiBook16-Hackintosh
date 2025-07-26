@@ -1,4 +1,4 @@
-DefinitionBlock ("", "SSDT", 2, "XK746", "SBUSMCHC", 0x00000000) {
+DefinitionBlock ("", "SSDT", 2, "XK746", "SbusMchc", 0x00000000) {
     External (\_SB.PCI0, DeviceObj)
     External (\_SB.PCI0.MCHC, DeviceObj)
     External (\_SB.PCI0.SBUS, DeviceObj)

@@ -1,6 +1,4 @@
-// SSDT-XOSI
-// SSDT-GPI0
-DefinitionBlock ("", "SSDT", 2, "XK746", "I2cHid", 0x00001000) {
+DefinitionBlock ("", "SSDT", 2, "XK746", "XOSI", 0x00001000) {
     Method (XOSI, 1, NotSerialized) {
         Store (
             Package () {
@@ -27,13 +25,5 @@ DefinitionBlock ("", "SSDT", 2, "XK746", "I2cHid", 0x00001000) {
         } Else {
             Return (_OSI (Arg0))
         }
-    }
-
-//--------------------------------------------------------//
-
-    External(\GPHD, FieldUnitObj)
-
-    If (_OSI("Darwin")) {
-        \GPHD = Zero
     }
 }
