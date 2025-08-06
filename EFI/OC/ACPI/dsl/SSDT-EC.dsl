@@ -1,4 +1,4 @@
-DefinitionBlock ("", "SSDT", 2, "XK746 ", "EC", 0x00001000) {
+DefinitionBlock ("", "SSDT", 2, "XK746", "EC", 0x00001000) {
     External (\_SB.PCI0.LPCB, DeviceObj)
 
     Scope (\_SB.PCI0.LPCB) {

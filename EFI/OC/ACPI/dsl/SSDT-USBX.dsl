@@ -1,4 +1,4 @@
-DefinitionBlock ("", "SSDT", 2, "XK746 ", "USBX", 0x00001000) {
+DefinitionBlock ("", "SSDT", 2, "XK746", "USBX", 0x00001000) {
     Scope (\_SB) {
         Device (USBX) {
             Name (_ADR, Zero)  // _ADR: Address
@@ -6,8 +6,7 @@ DefinitionBlock ("", "SSDT", 2, "XK746 ", "USBX", 0x00001000) {
             Method (_DSM, 4, NotSerialized) { // _DSM: Device-Specific Method
                 If (LNot (Arg2)) {
                     Return (
-                        Buffer ()
-                        {
+                        Buffer () {
                             0x03
                         }
                     )

@@ -1,0 +1,5 @@
+Mod版 https://github.site/laobamac/OCLP-Mod/releases
+1.安装
+2.打开
+3. 安装驱动补丁
+4. 开始安装补丁
