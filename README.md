@@ -1,36 +1,40 @@
 # RedmiBook16黑苹果
 
-> 支持的笔记本[RedmiBook 16](https://www.mi.com/buy/detail?product_id=10000242&cfrom=search) _ _ [RedmiBook 14II](https://www.mi.com/buy/detail?product_id=10000241)
+> 支持的笔记本`RedmiBook16`_`RedmiBook14II`
 
-### 支持安装的macOS
+### 支持安装的macOS 10.15~26
 - Catalina
 - BigSur
 - Monterey
 - Ventura
 - Sonoma
 - Sequoia
-- Tahoe (声音需要使用[OCLP-Mod](https://github.com/laobamac/OCLP-Mod/releases))
+- Tahoe
 
 > 如果你有此efi现有问题解决办法欢迎[lssues](https://github.com/XingKong746/RedmiBook16-Hackintosh/issues)
 
 ## 电脑配置
-| 规格   | 详细信息                                                      |
-| ------ | ------------------------------------------------------------ |
-| CPU    | i5 1035G1                                                    |
+| 规格   | 详细信息                                                       |
+| ------ | ------------------------------------------------------------  |
 | 主板   | TIMI TM2003 芯片组 I/O (U Premium) - 3482 for Intel 495 Series |
-| 硬盘   | 三星 SAMSUNG MZNLH512HALU-00000                                |
-| 显卡   | 英特尔锐炬Plus & Intel(R) UHD Graphics                         |
-| 声卡   | Realtek High Definition Audio ALC256                           |
-| 网卡   | Intel(R) Wi-Fi 6 AX201 160MHz                                  |
+| CPU    | i5-1035G1                                                     |
+| 显卡   | Intel(R) UHD Graphics G1                                      |
+| 声卡   | Realtek High Definition Audio ALC256                          |
+| 网卡   | Intel(R) Wi-Fi 6 AX201 160MHz                                 |
+| 硬盘   | SAMSUNG MZNLH512HALU-00000                                    |
 
-### 给需要的人一些帮助
-| BIOS配置项          | 位置     | 变量 | 目标          |
-| ------------------ | -------- | ---  | ------------- |
-| CFG Lock           | CpuSetup | 0x43 | 0x0: Disabled |
-| DVMT Pre-Allocated | SaSetup  | 0xA4 | 0x5: 160M     |
-| DVMT Total Gfx Mem | SaSetup  | 0xA5 | 0x3: MAX      |
-| VT-d               | SaSetup  | 0xA7 | 0x0: Disabled |
-| State After G3     | PchSetup | 0x1B | 0x0: S0 State |
+### 一些高级BIOS配置项
+| BIOS配置项                | 位置         | 变量 | 目标                |
+| ----------------------- | ----------- | ----- | --------------- |
+| CFG Lock                    | CpuSetup | 0x43 | 0x0: Disabled |
+| DVMT Pre-Allocated  | SaSetup    | 0xA4 | 0x5: 160M      |
+| DVMT Total Gfx Mem | SaSetup    | 0xA5 | 0x3: MAX       |
+| VT-d                           | SaSetup    | 0xA7 | 0x0: Disabled |
+| State After G3             | PchSetup | 0x1B  | 0x0: S0 State  |
+- 推荐更改这些配置，不懂的请忽略，胡乱修改严重可导致BIOS损坏
+- 要恢复原始BIOS配置，直接更新官方BIOS就行了
+
+<sub>提供有偿远程服务安装双系统单macOS指定版本重装Windows。我的QQ：3301394538</sub>
 
 ## 正常的
 - 核显 加速
@@ -42,7 +46,7 @@
 - USB 已定制USB驱动两个type-C和USB口均正常 (支持26)
 - 3.5mm 耳机接口
 - type-C 耳机接口
-- 蓝牙 连接耳机，手机、键鼠(13以下)
+- 蓝牙 连接耳机，手机、键鼠<sup>13↓</sup>
 - 3.5mm/type-C/蓝牙耳机麦克风
 - 触控板
 - 键盘
@@ -50,8 +54,9 @@
 - 电池电量显示
 
 ## 不正常的
-- HDMI
+- HDMI DP
 - 内置麦克风
+- MX350：不支持
 
 ##
 
@@ -75,3 +80,5 @@ sudo killall sharingd
 - [Xjn´s Blog](https://blog.xjn819.com)
 - Apple 的 macOS
 - 以及[我](https://github.com/XingKong746)
+
+
