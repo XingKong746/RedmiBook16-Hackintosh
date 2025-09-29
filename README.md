@@ -1,8 +1,8 @@
 # RedmiBook16黑苹果
-
-> 支持的笔记本`RedmiBook16`_`RedmiBook14II`
+支持的笔记本`RedmiBook16`_`RedmiBook14II`
 
 ### 支持安装的macOS 10.15~26
+> 安装macOS需要在BIOS中关闭安全启动
 - Catalina
 - BigSur
 - Monterey
