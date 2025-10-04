@@ -1,5 +1,5 @@
 # RedmiBook16黑苹果
-支持的笔记本`RedmiBook16`_`RedmiBook14II`
+支持的笔记本`RedmiBook16`、`RedmiBook14II`
 
 ### 支持安装的macOS 10.15~26
 > 安装macOS需要在BIOS中关闭安全启动
@@ -13,15 +13,21 @@
 
 > 如果你有此efi现有问题解决办法欢迎[lssues](https://github.com/XingKong746/RedmiBook16-Hackintosh/issues)
 
-## 电脑配置
-| 规格   | 详细信息                                                       |
-| ------ | ------------------------------------------------------------  |
-| 主板   | TIMI TM2003 芯片组 I/O (U Premium) - 3482 for Intel 495 Series |
-| CPU    | i5-1035G1                                                     |
-| 显卡   | Intel(R) UHD Graphics G1                                      |
-| 声卡   | Realtek High Definition Audio ALC256                          |
-| 网卡   | Intel(R) Wi-Fi 6 AX201 160MHz                                 |
-| 硬盘   | SAMSUNG MZNLH512HALU-00000                                    |
+## 我的配置
+| 硬件 | 详情                                                                                                                                                |
+| ---- | --------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 主板 | TIMI TM2003 (V34F2) - 3482 for Intel 495 Series                                                                                                     |
+| CPU  | Intel(R) Core(TM) i5-1035G1 (8) @ 3.60 GHz<br/>L1 Cache: 4x48.00 KiB (D), 4x32.00 KiB (I)<br/>L2 Cache: 4x512.00 KiB (U)<br/>L3 Cache: 6.00 MiB (U) |
+| GPU  | Intel Iris Plus Graphics G1 (Ice Lake) (32) @ 1.05 GHz<br/>NVIDIA GeForce MX350 (2.00 GiB)                                                          |
+| 内存 | Samsung DDR4-3200 16G                                                                                                                               |
+| 网卡 | Intel(R) Wi-Fi 6 AX201 160MHz (Bluetooth 5.2)                                                                                                       |
+| 声卡 | Realtek High Definition Audio ALC256                                                                                                                |
+| 硬盘 | SAMSUNG MZNLH512HALU-00000                                                                                                                          |
+| 显示 | CMN1608 1920x1080 px @ 60 Hz - 360x200 mm (16.21 inches, 135.87 ppi)                                                                                |
+| 电池 | R14B01W                                                                                                                                             |
+| 键盘 | AT Translated Set 2 keyboard                                                                                                                        |
+| 触摸 | ETPS/2 Elantech Touchpad<br/>ELAN2309:00 04F3:3182 Mouse<br/>ELAN2309:00 04F3:3182 Touchpad                                                         |
+| TPM  | TPM 2.0 Device                                                                                                                                      |
 
 ### 一些高级BIOS配置项
 | BIOS配置项                | 位置         | 变量 | 目标                |
