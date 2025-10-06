@@ -25,7 +25,7 @@
 | 硬盘 | SAMSUNG MZNLH512HALU-00000                                                                                                                          |
 | 显示 | CMN1608 1920x1080 px @ 60 Hz - 360x200 mm (16.21 inches, 135.87 ppi)                                                                                |
 | 电池 | R14B01W                                                                                                                                             |
-| 键盘 | AT Translated Set 2 keyboard                                                                                                                        |
+| 输入 | AT Translated Set 2 keyboard<br/>ETPS/2 Elantech Touchpad<br/>ELAN2309:00 04F3:3182 Mouse<br/>ELAN2309:00 04F3:3182 Touchpad                                                                                                                        |
 | 触摸 | ETPS/2 Elantech Touchpad<br/>ELAN2309:00 04F3:3182 Mouse<br/>ELAN2309:00 04F3:3182 Touchpad                                                         |
 | TPM  | TPM 2.0 Device                                                                                                                                      |
 
